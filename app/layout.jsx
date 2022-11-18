@@ -1,10 +1,7 @@
+import Link from "next/link";
 import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/*
@@ -13,9 +10,13 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <nav>hello</nav>
-        {children}
-        <footer>footer</footer>
+        <header>
+          <Link href="/">Next Posts</Link>
+          <nav>
+            <Link href="/posts">Posts</Link>
+          </nav>
+        </header>
+        <main>{children}</main>
       </body>
     </html>
   );
