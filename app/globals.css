@@ -1,3 +1,9 @@
+/* tailwind css modules start */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* tailwind css modules end */
+
 html,
 body {
   padding: 0;
