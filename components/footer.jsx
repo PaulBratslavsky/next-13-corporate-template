@@ -11,7 +11,7 @@ const footer = () => {
                     <span className="sr-only">Home Page</span>
                 </a>
                 <p className="my-4 text-xs leading-normal text-gray-600">
-                    The leading open source headless CMS built with <strong>100% JavScript</strong>. Built simple, secure and powerful APIs with Strapi
+                    The leading open source headless CMS built with <strong>100% JavaScript</strong>. Built simple, secure and powerful APIs with Strapi
                 </p>
                 </div>
                 <nav className="col-span-1 md:col-span-1 lg:col-span-2">
