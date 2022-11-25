@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from "next/link"
 import { Menu } from '@headlessui/react'
 
@@ -9,9 +9,7 @@ const NavBar = () => {
           <div className="container flex flex-col flex-wrap items-center p-1 mx-auto lg:p-0 md:flex-row">
             <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
               {/* will substitute strapi logo here, first designing navbar */}
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 p-2 text-white bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
+              <img src="https://dummyimage.com/302x302" className="w-12 h-12 p-2 text-white rounded-full" alt='Strapi logo placeholder' />
               <span className="ml-3 text-xl">Strapi</span>
             </a>
             <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4">
