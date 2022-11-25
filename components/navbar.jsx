@@ -5,7 +5,7 @@ import { Menu } from '@headlessui/react'
 
 const NavBar = () => {
   return (
-    <header className="text-gray-600">
+    <header className="relative text-gray-800 bg-white shadow-md">
           <div className="container flex flex-col flex-wrap items-center p-1 mx-auto lg:p-0 md:flex-row">
             <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
               {/* will substitute strapi logo here, first designing navbar */}
