@@ -2,7 +2,7 @@ import React from 'react'
 
 const footer = () => {
   return (
-    <>
+    <div>
         <footer className="px-4 py-12 mx-auto max-w-7xl">
             <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-11 lg:gap-20">
                 <div className="col-span-3">
@@ -46,7 +46,7 @@ const footer = () => {
                 <p className="mb-0 text-xs text-left text-gray-600 md:mb-0">Copyright &copy; 2022/23 JAMstack</p>
             </div>
         </footer>
-    </>
+    </div>
   )
 }
 
