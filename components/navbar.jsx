@@ -13,7 +13,7 @@ const NavBar = () => {
               <span className="ml-3 text-xl">Strapi</span>
             </a>
             <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4">
-              <Link className='mr-5 hover:text-gray-900' href='/'>Pricing</Link>
+              <Link className='mr-5 hover:text-gray-900' href="/pricing">Pricing</Link>
               <Link className='mr-5 hover:text-gray-900' href="/posts">Contact</Link>
             </nav>
             <div className="flex justify-between w-auto">
