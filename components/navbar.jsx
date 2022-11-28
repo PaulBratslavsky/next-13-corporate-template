@@ -14,7 +14,7 @@ const NavBar = () => {
             </a>
             <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4">
               <Link className='mr-5 hover:text-gray-900' href="/pricing">Pricing</Link>
-              <Link className='mr-5 hover:text-gray-900' href="/posts">Contact</Link>
+              <Link className='mr-5 hover:text-gray-900' href="/contact">Contact</Link>
             </nav>
             <div className="flex justify-between w-auto">
             <button className="inline-flex items-center px-4 py-2 mt-4 text-base text-indigo-600 bg-white border-2 border-indigo-600 rounded focus:outline-none hover:bg-gray-200 md:mt-0 hover:text-black">Sign Up
