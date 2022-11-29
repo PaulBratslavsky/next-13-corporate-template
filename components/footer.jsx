@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const footer = () => {
   return (
@@ -6,8 +7,14 @@ const footer = () => {
         <footer className="px-4 py-12 mx-auto max-w-7xl">
             <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-11 lg:gap-20">
                 <div className="col-span-3">
-                <a href="#" title="Hellonext Home Page" className="flex items-center">
-                    <img src="https://dummyimage.com/302x302" className="w-12 h-12 p-2 text-white rounded-full" alt='Strapi logo placeholder' width="86" height="24" /> Strapi
+                <a href="#" title="Home Page" className="flex items-center">
+                    <Image
+                    alt='Strapi logo placeholder'
+                    src='https://dummyimage.com/312x302'
+                    width={60}
+                    height={24}
+                    className="w-12 h-12 p-2 text-white rounded-full"
+                    />Strapi
                     <span className="sr-only">Home Page</span>
                 </a>
                 <p className="my-4 text-xs leading-normal text-gray-600">
