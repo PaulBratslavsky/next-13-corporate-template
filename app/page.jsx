@@ -29,8 +29,8 @@ export default function Home() {
                     <Image
                     alt="Logo placement"
                     src='https://dummyimage.com/312x302'
-                    width={50}
-                    height={50}
+                    width={950}
+                    height={950}
                     className="w-full h-full lg:max-w-2xl"
                     />
                 </div>
