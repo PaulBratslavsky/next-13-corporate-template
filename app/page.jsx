@@ -1,4 +1,4 @@
-
+import Feature_Section from '../components/feature_section'
 export default function Home() {
   return (
     <div>
@@ -29,6 +29,7 @@ export default function Home() {
 
             </div>
         </div>
+        <Feature_Section />
       </main>
     </div>
   )
