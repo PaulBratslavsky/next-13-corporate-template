@@ -1,4 +1,6 @@
 import Feature_Section from '../components/feature_section'
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <div>
@@ -24,7 +26,13 @@ export default function Home() {
                 </div>
 
                 <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                    <img class="w-full h-full lg:max-w-2xl" src="https://dummyimage.com/302x302" alt="Catalogue-pana.svg" />
+                    <Image
+                    alt="Logo placement"
+                    src='https://dummyimage.com/312x302'
+                    width={50}
+                    height={50}
+                    className="w-full h-full lg:max-w-2xl"
+                    />
                 </div>
 
             </div>
