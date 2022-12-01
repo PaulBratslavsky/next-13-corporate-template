@@ -1,5 +1,6 @@
 import React from 'react'
 import Testimonial from './testimonial_card'
+import Newsletter from './newsletter'
 
 const testimonial_layout = () => {
   return (
@@ -36,6 +37,7 @@ const testimonial_layout = () => {
                 </div>
             </div>
         </section>
+        <Newsletter />
     </>
   )
 }
