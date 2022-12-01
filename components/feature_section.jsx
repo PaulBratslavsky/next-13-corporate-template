@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Features_Column from './feature_column'
 
 {/* <Image
     alt="Party"
@@ -50,6 +51,7 @@ const feature_section = () => {
                 />
             </div>
         </section>
+        <Features_Column />
     </div>
   )
 }
