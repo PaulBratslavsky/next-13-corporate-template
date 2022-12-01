@@ -1,0 +1,25 @@
+import React from 'react'
+
+const testimonial_layout = () => {
+  return (
+    <section class="bg-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+            <div class="mx-auto max-w-xl text-center">
+                <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
+                    Read trusted reviews from our customers
+                </h2>
+
+                <p class="text-gring-offset-warm-gray-500 mx-auto mt-4 max-w-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                    praesentium natus sapiente commodi. Aliquid sunt tempore iste
+                    repellendus explicabo dignissimos placeat, autem harum dolore
+                    reprehenderit quis! Quo totam dignissimos earum.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+  )
+}
+
+export default testimonial_layout
