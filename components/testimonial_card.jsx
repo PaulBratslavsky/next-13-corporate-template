@@ -5,13 +5,7 @@ const testimonial_card = () => {
   return (
     <div>
         <section className="bg-white">
-            <div className="max-w-6xl px-6 py-10 mx-auto">
-                <p className="text-xl font-medium text-indigo-500 ">Testimonials</p>
-
-                <h1 className="mt-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl">
-                    What clients saying
-                </h1>
-
+            <div className="max-w-6xl px-6 pb-4 mx-auto mb-5">
                 <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
                     <div className="absolute w-full bg-indigo-600 -z-10 md:h-96 rounded-2xl"></div>
                     
@@ -19,8 +13,8 @@ const testimonial_card = () => {
                         <Image
                         alt="client photo"
                         src='https://dummyimage.com/312x302'
-                        width={24}
-                        height={24}
+                        width={100}
+                        height={100}
                         className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
                         />
                         
