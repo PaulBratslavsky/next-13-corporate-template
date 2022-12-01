@@ -1,4 +1,5 @@
 import Feature_Section from '../components/feature_section'
+import Testimonial from '../components/testimonial_layout'
 import Image from 'next/image'
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
             </div>
         </div>
         <Feature_Section />
+        <Testimonial />
       </main>
     </div>
   )
