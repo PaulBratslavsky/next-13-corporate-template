@@ -1,5 +1,7 @@
 import Feature_Section from '../components/feature_section'
 import Testimonial from '../components/testimonial_layout'
+import CTA from '../components/callToAction'
+import Newsletter from '../components/newsletter'
 import Image from 'next/image'
 
 export default function Home() {
@@ -40,6 +42,8 @@ export default function Home() {
         </div>
         <Feature_Section />
         <Testimonial />
+        <Newsletter />
+        <CTA />
       </main>
     </div>
   )
