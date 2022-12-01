@@ -2,6 +2,7 @@ import React from 'react'
 
 const testimonial_layout = () => {
   return (
+    <>
     <section class="bg-white">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
             <div class="mx-auto max-w-xl text-center">
@@ -18,7 +19,23 @@ const testimonial_layout = () => {
             </div>
             
         </div>
-    </section>
+
+        {/* Logo section */}
+            <div class="px-4 py-6 mx-auto max-w-3xl">
+                <div class="grid grid-cols-3 gap-5">
+                    <div class="flex items-center justify-center">
+                        <div class='h-12 w-12 rounded-full bg-gray-400'></div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class='h-12 w-12 rounded-full bg-gray-400'></div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class='h-12 w-12 rounded-full bg-gray-400'></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </>
   )
 }
 
