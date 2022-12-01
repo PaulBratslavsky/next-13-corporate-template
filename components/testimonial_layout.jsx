@@ -1,10 +1,11 @@
 import React from 'react'
+import Testimonial from './testimonial_card'
 
 const testimonial_layout = () => {
   return (
     <>
     <section class="bg-white">
-        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-4 lg:px-8">
             <div class="mx-auto max-w-xl text-center">
                 <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
                     Read trusted reviews from our customers
@@ -19,7 +20,7 @@ const testimonial_layout = () => {
             </div>
             
         </div>
-
+        <Testimonial />
         {/* Logo section */}
             <div class="px-4 py-6 mx-auto max-w-3xl">
                 <div class="grid grid-cols-3 gap-5">
