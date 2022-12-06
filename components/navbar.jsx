@@ -1,5 +1,7 @@
+"use client" // declare a NextJs13 component as a client component
+
 import React from 'react'
-// import Image from 'next/image'
+import Image from 'next/image'
 import Link from "next/link"
 import { Menu } from '@headlessui/react'
 
@@ -9,7 +11,13 @@ const NavBar = () => {
           <div className="container flex flex-col flex-wrap items-center p-1 mx-auto lg:p-0 md:flex-row">
             <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
               {/* will substitute strapi logo here, first designing navbar */}
-              <img src="https://dummyimage.com/302x302" className="w-12 h-12 p-2 text-white rounded-full" alt='Strapi logo placeholder' />
+              <Image
+                alt="Logo placement"
+                src='https://dummyimage.com/312x302'
+                width={950}
+                height={950}
+                className="w-12 h-12 p-2 text-white rounded-full"
+                />
               <Link href="/"><span className="ml-3 text-xl">Strapi</span></Link>
             </a>
             <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4">
