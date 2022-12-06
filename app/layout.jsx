@@ -1,5 +1,4 @@
 "use client" // declare a NextJs13 component as a client component
-// import Link from "next/link";
 import "./globals.css";
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
