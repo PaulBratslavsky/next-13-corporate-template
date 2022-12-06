@@ -2,14 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Features_Column from './feature_column'
 
-{/* <Image
-    alt="Party"
-    src='https://dummyimage.com/312x302'
-    width={50}
-    height={50}
-    classNameName="absolute inset-0 object-cover w-full h-full"
-    /> */}
-    
 const feature_section = () => {
   return (
     <div>
@@ -28,7 +20,7 @@ const feature_section = () => {
                 src='https://dummyimage.com/600x360'
                 width={450}
                 height={450}
-                classNameName="w-full h-full lg:max-w-2xl"
+                className="w-full h-full lg:max-w-2xl"
                 />
                 
             </div>
@@ -47,7 +39,7 @@ const feature_section = () => {
                 src='https://dummyimage.com/600x360'
                 width={450}
                 height={450}
-                classNameName="w-full h-full lg:max-w-2xl"
+                className="w-full h-full lg:max-w-2xl"
                 />
             </div>
         </section>
