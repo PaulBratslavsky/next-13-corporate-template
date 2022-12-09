@@ -21,16 +21,7 @@ const navbar = () => {
           <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4">
               <Link className='mr-5 hover:text-gray-900' href="/pricing">Pricing</Link>
               <Link className='mr-5 hover:text-gray-900' href="/contact">Contact</Link>
-          </nav>
-          <div className="flex justify-between w-auto">
-            <button className="inline-flex items-center px-4 py-2 mt-4 text-base text-indigo-600 bg-white border-2 border-indigo-600 rounded focus:outline-none hover:bg-gray-200 md:mt-0 hover:text-black">Sign Up
-            </button>
-            <button className="inline-flex items-center px-3 py-1 mt-4 ml-5 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0">En
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </button>
-            </div>
+            </nav>
         </div>
       </header>
     </>
