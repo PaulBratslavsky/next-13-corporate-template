@@ -1,5 +1,7 @@
-import Link from "next/link";
+"use client" // declare a NextJs13 component as a client component
 import "./globals.css";
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 export default function RootLayout({ children }) {
   return (
@@ -10,13 +12,9 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
-        <header>
-          <Link href="/">Next Posts</Link>
-          <nav>
-            <Link href="/posts">Posts</Link>
-          </nav>
-        </header>
+        <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

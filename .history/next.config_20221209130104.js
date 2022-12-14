@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   env:{
-    NEXT_PUBLIC_STRAPI_URL: process.env.NEXT_PUBLIC_STRAPI_URL
+    NEXT_PUBLIC_STRAPI_URL: process.env.API_KEY
   },
   images: {
     remotePatterns: [

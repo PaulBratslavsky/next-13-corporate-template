@@ -15,7 +15,7 @@ export default function PostsLayout({ children }) {
   return (
     <div className={styles.grid}>
       <aside className={styles.posts}>
-        <h1>All Posts</h1>
+        <h1 className="text-red-400">All Posts</h1>
         <ul>
           {posts.map((post) => (
             <li key={post.id}>
